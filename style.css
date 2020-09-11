@@ -1,3 +1,56 @@
+
+/* general style */
 body{
-  background-color: green;
+  background-color: green; // da togliere
+}
+
+.contenitore{
+  background-color: orange;
+  position: relative;
+  width: 1500px;
+  margin: auto;
+}
+
+/* regola per tutti i bottoni input */
+.bottoni{
+  color: red;
+}
+
+
+/* header style */
+
+/* header_top style */
+.header_top{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* style colonna di sx di header_top */
+.col_lingua_contact{
+  width: 50%;
+  float: left;
+}
+
+/* style colonna dx di header_top */
+.col_dx{
+  width: 50%;
+  float: left;
+
+}
+
+.col_dx .col_dx_bottoni{
+  position: absolute;
+  right: 20%;
+  top:40%;
+}
+
+.col_dx .col_dx_bottoni input{
+  padding: 8px;
+}
+
+.header_top .col_lingua_contact ul li{
+  display: inline-block;
+  padding: 10px;
+
 }
