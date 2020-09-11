@@ -177,3 +177,8 @@ main .powerful_alone .contenitore_powerful_alone p{
   padding: 20px;
   line-height: 25px;
 }
+
+.powerful_alone .contenitore_powerful_alone img{
+  width: 250px;
+  margin-top: 40px;
+}
