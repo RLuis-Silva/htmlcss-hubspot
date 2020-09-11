@@ -83,7 +83,7 @@ nav{
 
 nav .contenitore_nav{
   width: 1500px;
-  background-color: white;
+  background-color: red;
   margin: 0 auto;
 }
 
@@ -181,4 +181,69 @@ main .powerful_alone .contenitore_powerful_alone p{
 .powerful_alone .contenitore_powerful_alone img{
   width: 250px;
   margin-top: 40px;
+}
+
+/* sezione servizi */
+main .contenitore_servizi .box_riga{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main .servizi{
+  background-color: lightblue;
+}
+
+main .servizi .contenitore_servizi{
+    width: 1500px;
+    margin: auto;
+    background-color: violet;
+}
+
+main .contenitore_servizi .box_riga{
+  width: 100%;
+  border: solid 3px black;
+}
+
+/* colonna sx del Box riga */
+main .contenitore_servizi .box_riga .col_sx_riga{
+  float:left;
+  width: 20%;
+}
+
+.contenitore_servizi .box_riga .col_sx_riga .col_sx_bottone input{
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.contenitore_servizi .box_riga .col_sx_riga{
+  margin-left: 90px;
+  background-color: yellow;
+  text-align: center;
+}
+
+/* colonna dx del Box riga */
+main .contenitore_servizi .box_riga .col_dx_riga{
+  float: left;
+  width: 70%;
+  margin-top: 60px;
+  margin-left: 3%;
+}
+
+.contenitore_servizi .box_riga .col_dx_riga h3{
+  margin-bottom: 25px;
+}
+
+.contenitore_servizi .box_riga .col_dx_riga h4{
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.contenitore_servizi .box_riga .col_dx_riga ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.contenitore_servizi .box_riga .col_dx_riga ul{
+  padding: 0;
 }
