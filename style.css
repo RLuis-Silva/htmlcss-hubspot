@@ -76,6 +76,40 @@ nav{
 
 nav .contenitore_nav{
   width: 1500px;
-  background-color: red;
+  background-color: white;
   margin: 0 auto;
+}
+
+nav .contenitore_nav{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* colonna sx con il logo */
+nav .contenitore_nav .col_logo{
+  float: left;
+  width: 50%;
+}
+
+/* colonna dx con lista navigazione */
+nav .contenitore_nav .col_nav{
+  float: left;
+  width: 50%;
+}
+
+nav .contenitore_nav .col_nav ul li{
+  display: inline-block;
+  padding:10px;
+  margin-top: 10px;
+}
+
+nav .contenitore_nav .col_nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+nav .contenitore_nav .col_logo img{
+  width: 200px;
+  margin-top: 5px;
 }
