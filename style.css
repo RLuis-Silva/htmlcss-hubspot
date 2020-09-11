@@ -25,6 +25,8 @@ body{
 /* regola per tutti i bottoni input */
 .bottoni{
   color: red;
+  border-radius: 5px;
+  border: solid 2px orange;
 }
 
 .hr1{
@@ -112,4 +114,30 @@ nav .contenitore_nav .col_nav ul li a{
 nav .contenitore_nav .col_logo img{
   width: 200px;
   margin-top: 5px;
+}
+
+
+/* main style */
+
+main .better_way{
+  background-image: url(img/jumbotron.png);
+  background-size: cover;
+  height: 820px;
+}
+
+main .better_way .contenitore_better_way{
+  /* background-color: red; */
+  width: 500px;
+  margin: 0 210px;
+}
+
+.better_way .contenitore_better_way h1{
+  padding: 50px;
+}
+
+.better_way .contenitore_better_way input{
+  padding: 20px;
+  margin: 30px;
+  margin-left: 25px;
+  background-color: orange;
 }
