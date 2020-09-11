@@ -124,6 +124,7 @@ nav .contenitore_nav .col_logo img{
 
 /* main style */
 
+/* sezione 'better way' */
 main .better_way{
   background-image: url(img/jumbotron.png);
   background-size: cover;
@@ -149,7 +150,6 @@ main .better_way .contenitore_better_way{
   margin-left: 25px;
 }
 
-
 /* linea suddivisorio: divide la sezione precedente con quella di 'powerful_alone') */
 .linea_divisorio{
   background-color: lightblue;
@@ -157,4 +157,23 @@ main .better_way .contenitore_better_way{
   height: 50px;
   border-top: solid 3px black;
   border-bottom: solid 3px black;
+}
+
+
+/* sezione 'powerful_alone' */
+main .powerful_alone{
+  background-color: lightblue;
+
+}
+
+main .powerful_alone .contenitore_powerful_alone{
+  width: 800px;
+  margin: auto;
+  background-color: yellow;
+  text-align: center;
+}
+
+main .powerful_alone .contenitore_powerful_alone p{
+  padding: 20px;
+  line-height: 25px;
 }
