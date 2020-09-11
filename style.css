@@ -1,16 +1,27 @@
 
 /* general style */
+
+*{
+  margin:0;
+}
+
 body{
   background-color: green; // da togliere
 }
 
-.contenitore{
+/* .contenitore{
   background-color: orange;
   position: relative;
   width: 1500px;
   margin: auto;
-}
+} */
 
+.header_top{
+  background-color: orange;
+  position: relative;
+  width: 1500px;
+  height: 50px;
+}
 /* regola per tutti i bottoni input */
 .bottoni{
   color: red;
@@ -42,7 +53,7 @@ body{
 .col_dx .col_dx_bottoni{
   position: absolute;
   right: 20%;
-  top:40%;
+  top:20%;
 }
 
 .col_dx .col_dx_bottoni input{
