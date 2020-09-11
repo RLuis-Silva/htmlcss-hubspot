@@ -127,7 +127,7 @@ nav .contenitore_nav .col_logo img{
 main .better_way{
   background-image: url(img/jumbotron.png);
   background-size: cover;
-  height: 820px;
+  height: 810px;
   position: relative;
 }
 
@@ -147,4 +147,14 @@ main .better_way .contenitore_better_way{
   padding: 20px;
   margin: 30px;
   margin-left: 25px;
+}
+
+
+/* linea suddivisorio: divide la sezione precedente con quella di 'powerful_alone') */
+.linea_divisorio{
+  background-color: lightblue;
+  width: 100%;
+  height: 50px;
+  border-top: solid 3px black;
+  border-bottom: solid 3px black;
 }
