@@ -73,3 +73,9 @@ body{
 nav{
   background-color: white;
 }
+
+nav .contenitore_nav{
+  width: 1500px;
+  background-color: red;
+  margin: 0 auto;
+}
