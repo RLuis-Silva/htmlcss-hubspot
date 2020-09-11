@@ -17,14 +17,14 @@ body{
 } */
 
 .header_top{
-  background-color: orange;
+  background-color: lightblue;
   position: relative;
   width: 100%;
   height: 50px;
 }
 /* regola per tutti i bottoni input */
 .bottoni{
-  color: red;
+  color: orange;
   border-radius: 5px;
   border: solid 2px orange;
 }
@@ -128,16 +128,19 @@ main .better_way{
   background-image: url(img/jumbotron.png);
   background-size: cover;
   height: 820px;
+  position: relative;
 }
 
 main .better_way .contenitore_better_way{
   /* background-color: red; */
   width: 500px;
   margin: 0 210px;
+  position: absolute;
+  top: 200px;
 }
 
 .better_way .contenitore_better_way h1{
-  padding: 50px;
+  padding: 50px 0;
 }
 
 .better_way .contenitore_better_way input{
