@@ -5,10 +5,6 @@
   margin:0;
 }
 
-body{
-  background-color: green; // da togliere
-}
-
 /* .contenitore{
   background-color: orange;
   position: relative;
@@ -184,7 +180,7 @@ main .powerful_alone .contenitore_powerful_alone p{
 }
 
 /* sezione servizi */
-main .contenitore_servizi .box_riga{
+main .contenitore_servizi .box_riga::after{
   content: "";
   display: table;
   clear: both;
@@ -223,6 +219,7 @@ main .contenitore_servizi .box_riga .col_sx_riga{
 }
 
 /* colonna dx del Box riga */
+
 main .contenitore_servizi .box_riga .col_dx_riga{
   float: left;
   width: 70%;
@@ -247,3 +244,56 @@ main .contenitore_servizi .box_riga .col_dx_riga{
 .contenitore_servizi .box_riga .col_dx_riga ul{
   padding: 0;
 }
+
+/* box servizi */
+
+/* .boxServizi::after{
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+.boxServizi{
+  width: 32%;
+  height: 480px;
+  background-color: violet;
+  border: solid 2px black;
+  float: left;
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
+
+.boxServizi p{
+  margin: 20px;
+}
+
+.boxServizi h4{
+  margin-top: 15px;
+}
+
+.boxServizi .img_boxServizi{
+  width: 200px;
+}
+
+.boxServizi_centro{
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.boxServizi ul{
+  list-style: none;
+  text-align: left;
+}
+
+.boxServizi input{
+  /* margin-bottom: 0; */
+  padding: 20px;
+}
+
+
+/* .boxServizi .box_input{
+  background-color: red;
+  margin-bottom: 10px;;
+  padding: 1px;
+} */
