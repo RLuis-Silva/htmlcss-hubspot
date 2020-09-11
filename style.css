@@ -29,6 +29,11 @@ body{
   border: solid 2px orange;
 }
 
+.bottone_arancione{
+  background-color: orange;
+  color: white;
+}
+
 .hr1{
   border: solid black 2px;
 }
@@ -139,5 +144,4 @@ main .better_way .contenitore_better_way{
   padding: 20px;
   margin: 30px;
   margin-left: 25px;
-  background-color: orange;
 }
