@@ -526,3 +526,23 @@ footer{
 .colonna_footerUp ul .contact_hubSpot{
   margin-top: 10px;
 }
+
+
+/* nav footer */
+.lingue .contenitore_navFooter{
+  width: 1500px;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.contenitore_navFooter ul li{
+  display: inline-block;
+}
+
+.contenitore_navFooter ul li a{
+  text-decoration: none;
+  color: white;
+  padding:8px;
+}
