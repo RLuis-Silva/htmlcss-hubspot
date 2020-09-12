@@ -399,3 +399,9 @@ main .partner{
 .partner .contenitore_partner .col_dx_partner .riga_partner li{
   display: inline-block;
 }
+
+.col_dx_partner .riga_partner ul li img{
+  width: 150px;
+  vertical-align: middle;
+  padding: 10px;
+}
