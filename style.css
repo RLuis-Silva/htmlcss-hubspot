@@ -302,7 +302,7 @@ main .contenitore_servizi .box_riga .col_dx_riga{
 /* sezione risultati */
 
 .risultati{
-  background-color: yellow;
+  background-color: #36aeb3;
   margin-top: 50px; /* da togliere */
   padding: 40px;
 }
@@ -310,8 +310,8 @@ main .contenitore_servizi .box_riga .col_dx_riga{
 .risultati .contenitore_risultati{
   width: 1500px;
   margin: auto;
-  background-color: grey; /* da togliere */
   text-align: center;
+  color: white;
 }
 
 .contenitore_risultati{
@@ -330,16 +330,16 @@ main .contenitore_servizi .box_riga .col_dx_riga{
 .colonna_tabella{
   float: left;
   width: 24.66%;
-  color: white;
 }
 
 .col1, .col2, .col3{
-  border-right: solid 1px white;
+  border-right: solid 1px;
 }
 
 .col_top{
-  border-bottom: solid 1px white;
+  border-bottom: solid 1px;
 }
+
 
 /* non funziona, volevo unire i due selettori in uno!
 inserendo l' operatore AND tra .col_top e .col_down*/
@@ -356,4 +356,46 @@ inserendo l' operatore AND tra .col_top e .col_down*/
 .colonna_tabella .col_down img{
   margin-top: 20px;
   margin-bottom: 15px;
+}
+
+
+/* sezione 'Partner' */
+main .partner{
+  background-color: yellow;
+}
+
+.partner .contenitore_partner::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.partner .contenitore_partner{
+  width: 1500px;
+  margin: auto;
+  background-color: orange; /* da togliere */
+}
+
+.partner .contenitore_partner .col_sx_partner{
+  float: left;
+  width: 30%;
+  margin-left: 10%;
+}
+
+.col_sx_partner h2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.partner .contenitore_partner .col_dx_partner{
+  float: left;
+  width: 50%;
+}
+
+.col_dx_partner ul{
+  margin-top: 40px;
+}
+
+.partner .contenitore_partner .col_dx_partner .riga_partner li{
+  display: inline-block;
 }
