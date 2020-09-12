@@ -247,11 +247,11 @@ main .contenitore_servizi .box_riga .col_dx_riga{
 
 /* box servizi */
 
-/* .boxServizi::after{
+.contenitore_servizi::after{
   content: "";
   display: table;
   clear: both;
-} */
+}
 
 .boxServizi{
   width: 32%;
@@ -291,9 +291,43 @@ main .contenitore_servizi .box_riga .col_dx_riga{
   padding: 20px;
 }
 
-
 /* .boxServizi .box_input{
   background-color: red;
   margin-bottom: 10px;;
   padding: 1px;
 } */
+
+
+
+/* sezione risultati */
+
+.risultati{
+  background-color: yellow;
+  margin-top: 50px; /* da togliere */
+  padding: 40px;
+}
+
+.risultati .contenitore_risultati{
+  width: 1500px;
+  margin: auto;
+  background-color: grey; /* da togliere */
+  text-align: center;
+}
+
+.contenitore_risultati{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.risultati .contenitore_risultati p{
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* tabella_risultati */
+.colonna_tabella{
+  float: left;
+  width: 25%;
+}
