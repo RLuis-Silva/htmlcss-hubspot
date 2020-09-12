@@ -470,14 +470,14 @@ main .startGrowing{
 
 /* footer */
 footer{
-  background-color: lightblue;
+  background-color: #2f3e51;
   padding:40px;
 }
 
 .contenitore_footer{
   width: 1500px;
   margin: auto;
-  background-color: red;
+  padding:10px;
 }
 
 .contenitore_footer::after{
@@ -490,4 +490,39 @@ footer{
 .colonna_footerUp{
   float: left;
   width: 25%;
+  color: white;
+  text-align: left;
+}
+
+.colonna_footerUp ul{
+  padding: 0;
+  margin-top: 20px;
+}
+
+.colonna_footerUp ul li{
+  list-style: none;
+
+}
+
+.colonna_footerUp ul .lista_contatti ul li{
+  display:inline-block;
+}
+
+/* lista link social */
+.colonna_footerUp ul li a{
+  text-decoration:none;
+  color: white;
+  padding: 10px;
+  line-height: 35px;
+}
+
+.colonna_footerUp ul .contact_hubSpot a{
+  padding: 10px;
+  background-color: white;
+  color: #2f3e51;
+  border-radius: 5px;
+}
+
+.colonna_footerUp ul .contact_hubSpot{
+  margin-top: 10px;
 }
