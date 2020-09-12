@@ -405,3 +405,43 @@ main .partner{
   vertical-align: middle;
   padding: 10px;
 }
+
+
+/* sezione 'start Growing' */
+main .startGrowing{
+  background-color: violet;
+}
+
+.startGrowing .contenitore_startGrowing{
+  width:1500px;
+  margin: auto;
+  background-color: green;
+}
+
+.startGrowing .contenitore_startGrowing::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contenitore_startGrowing .colonna_startGrowing{
+  width: 45%;
+  float: left;
+}
+
+/* perchè se appplico da riga 433 a 441, collassa tutto? */
+/* .col_dx_startGrowing{
+  position: relative;
+} */
+
+/* .col_dx_startGrowing img{
+  width: 300px;
+  position: absolute;
+  right: 0;
+} */
+
+.col_dx_startGrowing img{
+  width: 300px;
+  position: relative;
+  right: -250px;
+}
