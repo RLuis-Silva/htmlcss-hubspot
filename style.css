@@ -546,3 +546,43 @@ footer{
   color: white;
   padding:8px;
 }
+
+
+
+
+/* footer down*/
+
+.footer_down .contenitore_footerDown{
+  width: 1500px;
+  margin:auto;
+  padding: 40px;
+  position: relative;
+  color: white;
+}
+
+.footer_down .contenitore_footerDown::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer_down .contenitore_footerDown .colonna_footerDown{
+  width: 50%;
+  float: left;
+}
+
+/* colonna privacy */
+.contenitore_footerDown .col_privacy ul li{
+  display: inline-block;
+}
+
+.contenitore_footerDown .col_privacy ul li a{
+  text-decoration:none;
+  color: white;
+  padding: 20px;
+}
+
+.contenitore_footerDown .col_privacy ul{
+  position: absolute;
+  right: 0;
+}
