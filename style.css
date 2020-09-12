@@ -329,5 +329,31 @@ main .contenitore_servizi .box_riga .col_dx_riga{
 /* tabella_risultati */
 .colonna_tabella{
   float: left;
-  width: 25%;
+  width: 24.66%;
+  color: white;
+}
+
+.col1, .col2, .col3{
+  border-right: solid 1px white;
+}
+
+.col_top{
+  border-bottom: solid 1px white;
+}
+
+/* non funziona, volevo unire i due selettori in uno!
+inserendo l' operatore AND tra .col_top e .col_down*/
+/* .colonna_tabella .col_top,.col_down img{
+  margin-top: 20px;
+  margin-bottom: 15px;
+} */
+
+.colonna_tabella .col_top img{
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.colonna_tabella .col_down img{
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
