@@ -410,6 +410,7 @@ main .partner{
 /* sezione 'start Growing' */
 main .startGrowing{
   background-color: violet;
+  padding: 40px;
 }
 
 .startGrowing .contenitore_startGrowing{
@@ -424,10 +425,13 @@ main .startGrowing{
   clear: both;
 }
 
+/* style generali colonna startGrowing*/
 .contenitore_startGrowing .colonna_startGrowing{
   width: 45%;
   float: left;
 }
+
+/* colonna dx di start Growing */
 
 /* perchè se appplico da riga 433 a 441, collassa tutto? */
 /* .col_dx_startGrowing{
@@ -443,5 +447,20 @@ main .startGrowing{
 .col_dx_startGrowing img{
   width: 300px;
   position: relative;
-  right: -250px;
+  right: -370px;
+}
+
+/* style colonna sx startGrowing */
+.col_sx_startGrowing h2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.col_sx_startGrowing p{
+  margin-bottom: 40px;
+}
+
+.col_sx_startGrowing input{
+  padding: 20px;
+  margin-bottom: 40px;
 }
