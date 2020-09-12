@@ -31,7 +31,7 @@
 }
 
 .hr1{
-  border: solid black 2px;
+  border: solid black 1px;
 }
 
 /* header style */
@@ -79,7 +79,6 @@ nav{
 
 nav .contenitore_nav{
   width: 1500px;
-  background-color: red;
   margin: 0 auto;
 }
 
@@ -158,14 +157,14 @@ main .better_way .contenitore_better_way{
 
 /* sezione 'powerful_alone' */
 main .powerful_alone{
-  background-color: lightblue;
+  background-color: #cbe5f7;
 
 }
 
 main .powerful_alone .contenitore_powerful_alone{
   width: 800px;
   margin: auto;
-  background-color: yellow;
+  /* background-color: yellow; */
   text-align: center;
 }
 
@@ -187,18 +186,20 @@ main .contenitore_servizi .box_riga::after{
 }
 
 main .servizi{
-  background-color: lightblue;
+  background-color: #cbe5f7;
 }
 
 main .servizi .contenitore_servizi{
     width: 1500px;
     margin: auto;
-    background-color: violet;
+    background-color: #cbe5f7;
 }
 
 main .contenitore_servizi .box_riga{
   width: 100%;
-  border: solid 3px black;
+  border: solid 3px lightgrey;
+  padding: 30px;
+  background-color: white;
 }
 
 /* colonna sx del Box riga */
@@ -254,10 +255,10 @@ main .contenitore_servizi .box_riga .col_dx_riga{
 }
 
 .boxServizi{
-  width: 32%;
+  width: 25%;
   height: 480px;
-  background-color: violet;
-  border: solid 2px black;
+  background-color: white;
+  border: solid 2px lightgrey;
   float: left;
   position: relative;
   top: 20px;
@@ -277,8 +278,8 @@ main .contenitore_servizi .box_riga .col_dx_riga{
 }
 
 .boxServizi_centro{
-  margin-left: 1%;
-  margin-right: 1%;
+  margin-left: 12%;
+  margin-right: 12.2%;
 }
 
 .boxServizi ul{
@@ -361,7 +362,7 @@ inserendo l' operatore AND tra .col_top e .col_down*/
 
 /* sezione 'Partner' */
 main .partner{
-  background-color: yellow;
+  background-color: white;
 }
 
 .partner .contenitore_partner::after{
@@ -373,7 +374,6 @@ main .partner{
 .partner .contenitore_partner{
   width: 1500px;
   margin: auto;
-  background-color: orange; /* da togliere */
 }
 
 .partner .contenitore_partner .col_sx_partner{
@@ -409,14 +409,13 @@ main .partner{
 
 /* sezione 'start Growing' */
 main .startGrowing{
-  background-color: violet;
+  background-color: white;
   padding: 40px;
 }
 
 .startGrowing .contenitore_startGrowing{
   width:1500px;
   margin: auto;
-  background-color: green;
 }
 
 .startGrowing .contenitore_startGrowing::after{
