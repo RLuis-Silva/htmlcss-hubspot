@@ -464,3 +464,30 @@ main .startGrowing{
   padding: 20px;
   margin-bottom: 40px;
 }
+
+
+
+
+/* footer */
+footer{
+  background-color: lightblue;
+  padding:40px;
+}
+
+.contenitore_footer{
+  width: 1500px;
+  margin: auto;
+  background-color: red;
+}
+
+.contenitore_footer::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* footer up */
+.colonna_footerUp{
+  float: left;
+  width: 25%;
+}
