@@ -164,7 +164,6 @@ main .powerful_alone{
 main .powerful_alone .contenitore_powerful_alone{
   width: 800px;
   margin: auto;
-  /* background-color: yellow; */
   text-align: center;
 }
 
@@ -187,6 +186,7 @@ main .contenitore_servizi .box_riga::after{
 
 main .servizi{
   background-color: #cbe5f7;
+  padding: 60px;
 }
 
 main .servizi .contenitore_servizi{
@@ -256,7 +256,7 @@ main .contenitore_servizi .box_riga .col_dx_riga{
 
 .boxServizi{
   width: 25%;
-  height: 480px;
+  /* height: 480px; */
   background-color: white;
   border: solid 2px lightgrey;
   float: left;
@@ -289,7 +289,8 @@ main .contenitore_servizi .box_riga .col_dx_riga{
 }
 
 .boxServizi input{
-  /* margin-bottom: 0; */
+  margin-top: 50px;
+  margin-bottom: 10px;
   padding: 20px;
 }
 
@@ -305,7 +306,6 @@ main .contenitore_servizi .box_riga .col_dx_riga{
 
 .risultati{
   background-color: #36aeb3;
-  margin-top: 50px; /* da togliere */
   padding: 40px;
 }
 
