@@ -278,9 +278,8 @@ main .contenitore_servizi .box_riga .col_dx_riga{
   margin-top: 30px;
 }
 
-.boxServizi_centro{
-  margin-left: 12%;
-  margin-right: 12.2%;
+.boxServizi ul{
+  padding: 15px;
 }
 
 .boxServizi ul{
@@ -300,6 +299,25 @@ main .contenitore_servizi .box_riga .col_dx_riga{
   padding: 1px;
 } */
 
+
+/* box centro servizi */
+.boxServizi_centro{
+  margin-left: 12%;
+  margin-right: 12.2%;
+}
+
+.boxServizi_centro .box_input{
+  margin-top: 10px;
+}
+
+.boxServizi_centro .img_boxServizi{
+  width: 130px;
+}
+
+/* box sx servizi */
+.boxServizi_sx .box_input{
+  margin-top: 10px;
+}
 
 
 /* sezione risultati */
@@ -324,7 +342,7 @@ main .contenitore_servizi .box_riga .col_dx_riga{
 
 .risultati .contenitore_risultati p{
   padding: 10px;
-  margin-top: 5px;
+  margin-top: 2px;
   margin-bottom: 5px;
 }
 
