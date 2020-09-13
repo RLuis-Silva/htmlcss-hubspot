@@ -157,11 +157,20 @@ main .better_way .contenitore_better_way{
   width: 500px;
   margin: 0 210px;
   position: absolute;
-  top: 200px;
+  top: 100px;
 }
 
 .better_way .contenitore_better_way h1{
   padding: 50px 0;
+  font-size: 50px;
+}
+
+.better_way .contenitore_better_way p{
+  font-size: 20px;
+}
+
+.better_way .contenitore_better_way p:last-child{
+  font-size: 15px;
 }
 
 .better_way .contenitore_better_way input{
@@ -187,14 +196,19 @@ main .powerful_alone{
 }
 
 main .powerful_alone .contenitore_powerful_alone{
-  width: 800px;
+  width: 950px;
   margin: auto;
   text-align: center;
 }
 
+main .powerful_alone .contenitore_powerful_alone h2{
+  font-size: 40px;
+}
+
 main .powerful_alone .contenitore_powerful_alone p{
-  padding: 20px;
+  padding-top: 20px;
   line-height: 25px;
+  font-size: 20px;
 }
 
 .powerful_alone .contenitore_powerful_alone img{
@@ -223,7 +237,7 @@ main .servizi .contenitore_servizi{
 main .contenitore_servizi .box_riga{
   width: 100%;
   border: solid 3px lightgrey;
-  padding: 30px;
+  padding: 20px;
   background-color: white;
 }
 
@@ -265,12 +279,17 @@ main .contenitore_servizi .box_riga .col_sx_riga{
 main .contenitore_servizi .box_riga .col_dx_riga{
   float: left;
   width: 70%;
-  margin-top: 60px;
+  margin-top: 40px;
   margin-left: 3%;
 }
 
 .contenitore_servizi .box_riga .col_dx_riga h3{
   margin-bottom: 25px;
+  font-size: 30px;
+}
+
+.contenitore_servizi .box_riga .col_dx_riga p{
+  font-size: 17px;
 }
 
 .contenitore_servizi .box_riga .col_dx_riga h4{
@@ -304,6 +323,16 @@ main .contenitore_servizi .box_riga .col_dx_riga{
   position: relative;
   top: 20px;
   text-align: center;
+}
+
+.boxServizi  h4{
+  font-size: 30px;
+}
+
+
+.boxServizi h3{
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .boxServizi ul li span{
@@ -382,7 +411,7 @@ main .contenitore_servizi .box_riga .col_dx_riga{
 }
 
 .risultati .contenitore_risultati{
-  width: 1500px;
+  width: 1000px;
   margin: auto;
   text-align: center;
   color: white;
@@ -394,10 +423,14 @@ main .contenitore_servizi .box_riga .col_dx_riga{
   clear: both;
 }
 
+.risultati .contenitore_risultati h2{
+  font-size: 33px;
+}
+
 .risultati .contenitore_risultati p{
   padding: 10px;
-  margin-top: 2px;
-  margin-bottom: 5px;
+  margin: 20px;
+  line-height: 25px;
 }
 
 /* tabella_risultati */
@@ -458,6 +491,11 @@ main .partner{
 .col_sx_partner h2{
   margin-top: 30px;
   margin-bottom: 30px;
+  font-size: 50px;
+}
+
+.col_sx_partner p{
+  font-size: 20px;
 }
 
 .partner .contenitore_partner .col_dx_partner{
@@ -526,10 +564,16 @@ main .startGrowing{
 .col_sx_startGrowing h2{
   margin-top: 30px;
   margin-bottom: 30px;
+  font-size: 30px;
 }
 
 .col_sx_startGrowing p{
   margin-bottom: 40px;
+  font-size: 20px;
+}
+
+.col_sx_startGrowing p:last-child{
+  font-size: 15px;
 }
 
 .col_sx_startGrowing input{
