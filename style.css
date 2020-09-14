@@ -13,7 +13,7 @@
 } */
 
 header{
-  background-color: lightblue;
+  background-color: #efefef;
 }
 .header_top{
   position: relative;
@@ -64,7 +64,11 @@ header{
 .col_lingua_contact{
   width: 50%;
   float: left;
+}
 
+.col_lingua_contact ul li a:last-child i{
+  position: relative;
+  top: 1px;
 }
 
 /* style colonna dx di header_top */
@@ -74,10 +78,18 @@ header{
 
 }
 
+
 .col_dx .col_dx_bottoni{
   position: absolute;
   right: 20%;
   top:20%;
+}
+
+.col_dx .col_dx_bottoni i{
+  padding: 1px;
+  padding-right: 10px;
+  color: #1d93e2;
+
 }
 
 .col_dx .col_dx_bottoni input{
@@ -139,7 +151,11 @@ nav .contenitore_nav .col_nav ul li a{
   color: black;
 }
 
-
+nav .contenitore_nav .col_nav ul li i{
+  /* padding-top: 2px; */
+  position: relative;
+  top: 1px;
+}
 
 
 /* main style */
