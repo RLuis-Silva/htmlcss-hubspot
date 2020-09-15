@@ -33,6 +33,7 @@ header{
 /* regola per tutti i bottoni input */
 .bottoni{
   color: orange;
+  padding: 5px;
   border-radius: 5px;
   border: solid 2px orange;
 }
@@ -40,6 +41,7 @@ header{
 .bottone_arancione{
   background-color: orange;
   color: white;
+  text-decoration: none;
 }
 
 .hr1{
@@ -83,6 +85,7 @@ header{
   position: absolute;
   right: 20%;
   top:20%;
+  margin-top: 4px;
 }
 
 .col_dx .col_dx_bottoni i{
@@ -92,9 +95,6 @@ header{
 
 }
 
-.col_dx .col_dx_bottoni input{
-  padding: 8px;
-}
 
 .header_top .col_lingua_contact ul{
   padding: 3px;
@@ -183,13 +183,15 @@ main .better_way .contenitore_better_way{
 
 .better_way .contenitore_better_way p{
   font-size: 20px;
+  margin-bottom: 60px;
 }
 
 .better_way .contenitore_better_way p:last-child{
   font-size: 15px;
+  margin-top: 50px;
 }
 
-.better_way .contenitore_better_way input{
+.better_way .contenitore_better_way a{
   padding: 20px;
   margin: 30px;
   margin-left: 25px;
@@ -283,7 +285,7 @@ main .contenitore_servizi .box_riga .col_sx_riga{
   margin-left: 40px;
 }
 
-.contenitore_servizi .box_riga .col_sx_riga .col_sx_bottone input{
+.contenitore_servizi .box_riga .col_sx_riga .col_sx_bottone a{
   padding: 20px;
   width: 180px;
   margin-top: 0px;
@@ -387,7 +389,7 @@ main .contenitore_servizi .box_riga .col_dx_riga{
   line-height: 21px;
 }
 
-.boxServizi input{
+.boxServizi a{
   margin-top: 50px;
   margin-bottom: 10px;
   padding: 20px;
@@ -416,8 +418,9 @@ main .contenitore_servizi .box_riga .col_dx_riga{
 }
 
 /* box sx servizi */
-.boxServizi_sx .box_input{
+.boxServizi .box_input{
   margin-top: 10px;
+  padding: 50px;
 }
 
 
@@ -592,9 +595,10 @@ main .startGrowing{
 
 .col_sx_startGrowing p:last-child{
   font-size: 15px;
+  margin-top: 30px;
 }
 
-.col_sx_startGrowing input{
+.col_sx_startGrowing a{
   padding: 20px;
   margin-bottom: 40px;
 }
